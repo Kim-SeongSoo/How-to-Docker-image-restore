@@ -2,7 +2,7 @@
 How to Docker image backup and restore
 
 
-
+***
 ### 1. Commit Container To Image
 
 firset of all, check the Container currently running.
@@ -25,7 +25,7 @@ You can see that the image is created in this way
 
 
 
-
+***
 ### 2. Save The Image
 
 Now let's save the test_har:0.0 image to *tar file*.
@@ -44,7 +44,7 @@ You can see that a file called __'test_har_0_0.tar'__ is created in the director
 
 
 
-
+***
 ### 3. Restore
 
 Now let's make sure that the extracted __'test_har_0_0.tar'__ file can be restored to the image again.
