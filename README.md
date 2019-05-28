@@ -64,7 +64,7 @@ you can see the image created in the image status as below.
 ![after loaded docker images](https://user-images.githubusercontent.com/51101183/58445404-7e14fd80-8137-11e9-961b-b309c71fac26.PNG)
 
 
-***<br><br>
+<br><br>
 #### reference
 Docker Documents: <https://docs.docker.com/reference/>
 
