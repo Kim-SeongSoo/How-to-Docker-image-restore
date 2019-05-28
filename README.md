@@ -10,10 +10,10 @@ firset of all, check the Container currently running.
 
 named 'test_01'
 
-and put the code in the command line:[^1]
+and put the code in the command line:
 
 
-```docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]```
+```docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]```.[^1]
 
 ```
 $ sudo docker commit test_01 test_har:0.0
@@ -32,8 +32,8 @@ You can see that the image is created in this way
 Now let's save the test_har:0.0 image to *tar file*.
 
 put the code in the command line:
-[^2]
-```docker image save [OPTIONS] IMAGE [IMAGE...]``` 
+
+```docker image save [OPTIONS] IMAGE [IMAGE...]```.[^2]
 
 ```
 sudo docker save -o test_har_0_0.tar test_har:0.0
@@ -50,9 +50,9 @@ You can see that a file called __'test_har_0_0.tar'__ is created in the director
 
 Now let's make sure that the extracted __'test_har_0_0.tar'__ file can be restored to the image again.
 
-put the cod in the command line:[^3]
+put the cod in the command line:
 
-```docker load [OPTIONS]```
+```docker load [OPTIONS]```.[^3]
 
 ```sudo docker -i test_har_0.0.tar```
 (The option __'-i'__ is the same as __'--input'__. It means read from tar archive file.) 
@@ -64,6 +64,6 @@ If you enter ```sudo docker images```,
 you can see the image created in the image status as below.
 ![after loaded docker images](https://user-images.githubusercontent.com/51101183/58445404-7e14fd80-8137-11e9-961b-b309c71fac26.PNG)
 
-
-
+[^1]: <https://docs.docker.com/engine/reference/commandline/commit/>
+[^2]: <https://docs.docker.com/engine/reference/commandline/save/>
 [^3]: <https://docs.docker.com/engine/reference/commandline/load/>
