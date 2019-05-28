@@ -1,7 +1,7 @@
 # How-to-Docker-image-restore
 How to Docker image backup and restore.('CLI' environmental standard)
 
-
+<br>
 ***
 ### 1. Commit Container To Image
 
@@ -24,8 +24,7 @@ $ sudo docker commit test_01 test_har:0.0
 You can see that the image is created in this way
 ![sudo docker commit](https://user-images.githubusercontent.com/51101183/58444244-45265a00-8132-11e9-9f0e-8686b8622b6c.PNG)
 
-
-
+<br>
 ***
 ### 2. Save The Image
 
@@ -44,7 +43,7 @@ You can see that a file called __'test_har_0_0.tar'__ is created in the director
 ![docker save](https://user-images.githubusercontent.com/51101183/58445600-35117900-8138-11e9-8ff7-afd4d3e2473d.PNG)
 
 
-
+<br>
 ***
 ### 3. Restore
 
@@ -64,6 +63,9 @@ If you enter ```sudo docker images```,
 you can see the image created in the image status as below.
 ![after loaded docker images](https://user-images.githubusercontent.com/51101183/58445404-7e14fd80-8137-11e9-961b-b309c71fac26.PNG)
 
+<br><br>
+***
+#### reference
 Docker Documents: <https://docs.docker.com/reference/>
 
 [^1]: <https://docs.docker.com/engine/reference/commandline/commit/>
