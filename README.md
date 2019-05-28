@@ -36,7 +36,7 @@ put the code in the command line:
 
 ```
 sudo docker save -o test_har_0_0.tar test_har:0.0
-```
+``` [^1]
 (The option __'-o'__ is same as __'--output'__. It means specify file name to save.)
 
 You can see that a file called __'test_har_0_0.tar'__ is created in the directory.
