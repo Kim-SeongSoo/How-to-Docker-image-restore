@@ -1,5 +1,5 @@
 # How-to-Docker-image-restore
-How to Docker image backup and restore
+How to Docker image backup and restore.('CLI' environmental standard)
 
 
 ***
@@ -8,17 +8,17 @@ How to Docker image backup and restore
 firset of all, check the Container currently running.
 ![docker ps](https://user-images.githubusercontent.com/51101183/58443540-6b95c680-812d-11e9-9ed5-f6ce3e1ebe1c.PNG)
 
-named 'test_01'
+We'll commit the container named __'test_01'__.
 
 and put the code in the command line:
 
 
-```docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]```.[^1]
+```docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]```[^1]
 
 ```
 $ sudo docker commit test_01 test_har:0.0
 ```
-(If you do not include the *tag*, it will be marked as *'latest'*)
+(If you do not include the __tag__, it will be marked as __'latest'__)
 
 
 You can see that the image is created in this way
@@ -29,11 +29,11 @@ You can see that the image is created in this way
 ***
 ### 2. Save The Image
 
-Now let's save the test_har:0.0 image to *tar file*.
+Now let's save the __test_har:0.0__ image to __.tar file__.
 
 put the code in the command line:
 
-```docker image save [OPTIONS] IMAGE [IMAGE...]```.[^2]
+```docker image save [OPTIONS] IMAGE [IMAGE...]```[^2]
 
 ```
 sudo docker save -o test_har_0_0.tar test_har:0.0
@@ -52,7 +52,7 @@ Now let's make sure that the extracted __'test_har_0_0.tar'__ file can be restor
 
 put the cod in the command line:
 
-```docker load [OPTIONS]```.[^3]
+```docker load [OPTIONS]```[^3]
 
 ```sudo docker -i test_har_0.0.tar```
 (The option __'-i'__ is the same as __'--input'__. It means read from tar archive file.) 
@@ -64,6 +64,11 @@ If you enter ```sudo docker images```,
 you can see the image created in the image status as below.
 ![after loaded docker images](https://user-images.githubusercontent.com/51101183/58445404-7e14fd80-8137-11e9-961b-b309c71fac26.PNG)
 
+Docker Documents: [Docker Documents](https://docs.docker.com/reference/)
+
 [^1]: <https://docs.docker.com/engine/reference/commandline/commit/>
 [^2]: <https://docs.docker.com/engine/reference/commandline/save/>
 [^3]: <https://docs.docker.com/engine/reference/commandline/load/>
+
+
+
