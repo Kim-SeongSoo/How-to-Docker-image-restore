@@ -40,7 +40,7 @@ sudo docker save -o test_har_0_0.tar test_har:0.0
 (The option __'-o'__ is same as __'--output'__. It means specify file name to save.)
 
 You can see that a file called __'test_har_0_0.tar'__ is created in the directory.
-![docker save](https://user-images.githubusercontent.com/51101183/58444742-87509b00-8134-11e9-8ee6-157ee9bb67dc.PNG)
+![docker save](https://user-images.githubusercontent.com/51101183/58445600-35117900-8138-11e9-8ff7-afd4d3e2473d.PNG)
 
 
 
