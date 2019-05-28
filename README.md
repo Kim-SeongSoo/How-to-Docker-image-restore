@@ -12,6 +12,6 @@ and put the code at command line:
 
 sudo docker commit -p [CONTAINER ID] [NAME]
 
-'''
-sudo docker commit -o test_01
-'''
+'
+$ sudo docker commit -o test_01
+'
