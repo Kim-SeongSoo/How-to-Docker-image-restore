@@ -10,9 +10,9 @@ firset of all, check the Container currently running.
 
 named 'test_01'
 
-and put the code in the command line:
+and put the code in the command line:[^1]
 
-[^1]
+
 ```docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]```
 
 ```
@@ -50,8 +50,8 @@ You can see that a file called __'test_har_0_0.tar'__ is created in the director
 
 Now let's make sure that the extracted __'test_har_0_0.tar'__ file can be restored to the image again.
 
-put the cod in the command line:
-[^3]
+put the cod in the command line:[^3]
+
 ```docker load [OPTIONS]```
 
 ```sudo docker -i test_har_0.0.tar```
@@ -65,6 +65,5 @@ you can see the image created in the image status as below.
 ![after loaded docker images](https://user-images.githubusercontent.com/51101183/58445404-7e14fd80-8137-11e9-961b-b309c71fac26.PNG)
 
 
-[^1]
-[^2]:
+
 [^3]: <https://docs.docker.com/engine/reference/commandline/load/>
