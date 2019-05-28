@@ -15,3 +15,5 @@ sudo docker commit -p [CONTAINER ID] [NAME]
 '
 $ sudo docker commit -o test_01
 '
+
+
