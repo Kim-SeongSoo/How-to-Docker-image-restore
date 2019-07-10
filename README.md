@@ -60,7 +60,7 @@ When you enter the code, you will get a message that the image 'test_har: 0.0' h
 ![docker load](https://user-images.githubusercontent.com/51101183/58445183-a4866900-8136-11e9-85eb-b4c719cfecd5.PNG)
 
 If you type ```sudo docker images```, 
-you can see the image created in the image status as below.
+you can see the generated image as below.
 ![after loaded docker images](https://user-images.githubusercontent.com/51101183/58445404-7e14fd80-8137-11e9-961b-b309c71fac26.PNG)
 
 
