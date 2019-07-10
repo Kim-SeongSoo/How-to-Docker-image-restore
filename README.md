@@ -49,7 +49,7 @@ You can see that a file called __'test_har_0_0.tar'__ is created in the director
 
 Now let's make sure that the extracted __'test_har_0_0.tar'__ file can be restored to the image again.
 
-put the cod in the command line:
+put the code in the command line:
 
 ```docker load [OPTIONS]```[^3]
 
