@@ -5,7 +5,7 @@ How to Docker image backup and restore.(__CLI environmental standard__)
 ***
 ### 1. Commit Container To Image
 
-firset of all, check the Container currently running.
+first of all, check the Container currently running.
 ![docker ps](https://user-images.githubusercontent.com/51101183/58443540-6b95c680-812d-11e9-9ed5-f6ce3e1ebe1c.PNG)
 
 We'll commit the container named __'test_01'__.
